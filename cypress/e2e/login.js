@@ -22,39 +22,39 @@ describe("Validate Login User",()=>{
         
       
     })
-    it("Should be able to view Product Store on the Header",()=>{ 
+    it("Should be able to view Product Store in the Header",()=>{ 
         loginForm_pom.Login_submission(data.email,data.password,path.loginTab_selector,path.username_selector,path.password_selector,path.login_btn_selector)
         loginForm_pom.Login_validation(path.login_validator_selector,data.email)
         header_page_pom.header_data(path.header_id,data.header_data1)
 
     })
-    it("Should be able to view Home Tab on the Header",()=>{
+    it("Should be able to view Home Tab in the Header",()=>{
         loginForm_pom.Login_submission(data.email,data.password,path.loginTab_selector,path.username_selector,path.password_selector,path.login_btn_selector)
         loginForm_pom.Login_validation(path.login_validator_selector,data.email)
         header_page_pom.header_data(path.header_id_tab,data.header_data2)
     })
 
-    it("Should be able to view Contact Tab on the Header",()=>{
+    it("Should be able to view Contact Tab in the Header",()=>{
         loginForm_pom.Login_submission(data.email,data.password,path.loginTab_selector,path.username_selector,path.password_selector,path.login_btn_selector)
         loginForm_pom.Login_validation(path.login_validator_selector,data.email)
         header_page_pom.header_data(path.header_id_tab,data.header_data3)
     })
-    it("Should be able to view About Us Tab on the Header",()=>{
+    it("Should be able to view About Us Tab in the Header",()=>{
         loginForm_pom.Login_submission(data.email,data.password,path.loginTab_selector,path.username_selector,path.password_selector,path.login_btn_selector)
         loginForm_pom.Login_validation(path.login_validator_selector,data.email)
         header_page_pom.header_data(path.header_id_tab,data.header_data4)
     })
-    it("Should be able to view Cart Tab on the Header",()=>{
+    it("Should be able to view Cart Tab in the Header",()=>{
         loginForm_pom.Login_submission(data.email,data.password,path.loginTab_selector,path.username_selector,path.password_selector,path.login_btn_selector)
         loginForm_pom.Login_validation(path.login_validator_selector,data.email)
         header_page_pom.header_data(path.header_id_tab,data.header_data5)
     })
-    it("Should be able to view Log out Tab on the Header",()=>{
+    it("Should be able to view Log out Tab in the Header",()=>{
         loginForm_pom.Login_submission(data.email,data.password,path.loginTab_selector,path.username_selector,path.password_selector,path.login_btn_selector)
         loginForm_pom.Login_validation(path.login_validator_selector,data.email)
         header_page_pom.header_data(path.header_id_tab,data.header_data8)
     })
-    it("Should be able to view Sign up Tab on the Header",()=>{
+    it("Should be able to view Logged in User in the Header",()=>{
         loginForm_pom.Login_submission(data.email,data.password,path.loginTab_selector,path.username_selector,path.password_selector,path.login_btn_selector)
         loginForm_pom.Login_validation(path.login_validator_selector,data.email)
         header_page_pom.header_userdata(path.header_id_tab,data.email)

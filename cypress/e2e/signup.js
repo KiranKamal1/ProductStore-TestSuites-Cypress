@@ -51,7 +51,7 @@ describe("Validate Sign Up",()=>{
             
    
     })
-    it("Should validate the user already exists",()=>{
+    it("Should validate the user cannot sign up with an existing user",()=>{
         signupForm_pom.signup_submission(data.username,data.password,path.signup_tab_selector,path.signup_username_selector,path.signup_password_selector,path.signup_btn_selector)
         signupForm_pom.signup_alerts(data.signup_user_exist_alert)
         

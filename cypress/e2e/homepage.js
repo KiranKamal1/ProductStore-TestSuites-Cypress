@@ -24,32 +24,32 @@ describe("Validate home page",()=>{
     it("Should load the Home page",()=>{
         cy.title().should('include', data.url_validator); 
     })
-    it("Should be able to view Product Store on the Header",()=>{ 
+    it("Should be able to view Product Store in the Header",()=>{ 
       
         header_page_pom.header_data(path.header_id,data.header_data1)
 
     })
-    it("Should be able to view Home Tab on the Header",()=>{
+    it("Should be able to view Home Tab in the Header",()=>{
         header_page_pom.header_data(path.header_id_tab,data.header_data2)
     })
 
-    it("Should be able to view Contact Tab on the Header",()=>{
+    it("Should be able to view Contact Tab in the Header",()=>{
         header_page_pom.header_data(path.header_id_tab,data.header_data3)
     })
-    it("Should be able to view About Us Tab on the Header",()=>{
+    it("Should be able to view About Us Tab in the Header",()=>{
         header_page_pom.header_data(path.header_id_tab,data.header_data4)
     })
-    it("Should be able to view Cart Tab on the Header",()=>{
+    it("Should be able to view Cart Tab in the Header",()=>{
         header_page_pom.header_data(path.header_id_tab,data.header_data5)
     })
-    it("Should be able to view Log in Tab on the Header",()=>{
+    it("Should be able to view Log in Tab in the Header",()=>{
         header_page_pom.header_data(path.header_id_tab,data.header_data6)
     })
-    it("Should be able to view Sign up Tab on the Header",()=>{
+    it("Should be able to view Sign up Tab in the Header",()=>{
         header_page_pom.header_data(path.header_id_tab,data.header_data7)
     })
 
-    it("Should be able to view Categories on Home page",()=>{
+    it("Should be able to view Categories in Home page",()=>{
 
         home_page_pom.homepage_search(data.categories_txt,path.categories_selector)
        

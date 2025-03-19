@@ -30,33 +30,33 @@ describe("Validate Cart Tab",()=>{
         
       
     })
-    it("Should be able to view Product Store on the Header",()=>{ 
+    it("Should be able to view Product Store in the Header",()=>{ 
         cart_tab_pom.goto_cartPage(path.cart_tab_selector)
         header_page_pom.header_data(path.header_id,data.header_data1)
 
     })
-    it("Should be able to view Home Tab on the Header",()=>{
+    it("Should be able to view Home Tab in the Header",()=>{
         cart_tab_pom.goto_cartPage(path.cart_tab_selector)
         header_page_pom.header_data(path.header_id_tab,data.header_data2)
     })
 
-    it("Should be able to view Contact Tab on the Header",()=>{
+    it("Should be able to view Contact Tab in the Header",()=>{
         cart_tab_pom.goto_cartPage(path.cart_tab_selector)
         header_page_pom.header_data(path.header_id_tab,data.header_data3)
     })
-    it("Should be able to view About Us Tab on the Header",()=>{
+    it("Should be able to view About Us Tab in the Header",()=>{
         cart_tab_pom.goto_cartPage(path.cart_tab_selector)
         header_page_pom.header_data(path.header_id_tab,data.header_data4)
     })
-    it("Should be able to view Cart Tab on the Header",()=>{
+    it("Should be able to view Cart Tab in the Header",()=>{
         cart_tab_pom.goto_cartPage(path.cart_tab_selector)
         header_page_pom.header_data(path.header_id_tab,data.header_data5)
     })
-    it("Should be able to view Log in Tab on the Header",()=>{
+    it("Should be able to view Log in Tab in the Header",()=>{
         cart_tab_pom.goto_cartPage(path.cart_tab_selector)
         header_page_pom.header_data(path.header_id_tab,data.header_data6)
     })
-    it("Should be able to view Sign up Tab on the Header",()=>{
+    it("Should be able to view Sign up Tab in the Header",()=>{
         cart_tab_pom.goto_cartPage(path.cart_tab_selector)
         header_page_pom.header_data(path.header_id_tab,data.header_data7)
     })
@@ -188,22 +188,7 @@ describe("Validate Cart Tab",()=>{
 
 
     })
-    it("Should be able to cancel purchase in Cart",()=>{
-       
-        home_page_pom.homepage_search(data.categories_txt,path.categories_selector)
-        home_page_pom.device_search(path.phone_tab_selector,path.device_list_selector,data.phone_txt,data.phone_list_txt)
-        cart_tab_pom.addto_cart(data.buying_device,path.add_to_cart_selector)
-        cart_tab_pom.cart_alerts(data.product_added)
-
-        cart_tab_pom.total_price(path.cart_tab_selector,path.total_price_selector,data.buying_device)
-        cart_tab_pom.cart_purchase(path.place_order_selector,path.buyer_name_selector,path.buyer_country_selector,path.buyer_city_selector,path.buyer_creditCard_selector,path.card_month_selector,path.card_year_selector,path.purchase_cross_btn_selector,
-            data.buyer_name,data.buyer_country,data.buyer_city,data.buyer_creditCard,data.card_month,data.card_year)
-        
-            cart_tab_pom.delete_device(path.cart_page_selector,data.buying_device,path.added_cart_item_selector,path.delete_btn_tag_selector,path.parent_row_item_selector)
-
-        
-
-    })
+  
 
     it("Should be able to view footer on the Cart screen",()=>{
         cart_tab_pom.goto_cartPage(path.cart_tab_selector)

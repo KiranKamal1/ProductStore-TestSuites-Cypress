@@ -14,7 +14,8 @@ class cart_pom {
         }
     delete_device(cart_tab_s,device_name,added_cart_item_s,delete_btn_tag_s,parent_row_item_s){
         cy.get(cart_tab_s).click()
-        cy.contains(device_name).should('be.visible'); 
+        cy.waitForPageLoad();
+        cy.contains(device_name).wait(1000).should('be.visible'); 
         cy.get(added_cart_item_s).contains(device_name).parents(parent_row_item_s) 
         .find(delete_btn_tag_s).click();
         cy.contains(device_name).should('not.exist'); 
