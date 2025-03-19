@@ -1,0 +1,86 @@
+
+{
+
+
+    "loginTab_selector":"#login2",
+    "username_selector":"#loginusername",
+    "password_selector":"#loginpassword",
+    "login_btn_selector":"//button[normalize-space(text())='Log in']",
+    "link":"https://www.demoblaze.com/index.html",
+  
+
+    "login_validator_selector":"#nameofuser",
+    "cancel_btn_selector":"//div[@id='logInModal']/div[@role='document']//button[normalize-space(text())='Close']",
+    "cross_btn_selector":"//div[@id='logInModal']/div[@role='document']//span[normalize-space(text())='×']",
+    "logout_selector":"#logout2",
+
+    "contactTab_selector":"//a[normalize-space(text())='Contact']",    
+    "contact_email_selector":"#recipient-email",
+    "contact_name_selector":"#recipient-name",
+    "message_selector":"#message-text",
+    "send_message_btn_selector":"//button[normalize-space(text())='Send message']",
+    "close_btn_selector":"//div[@id='exampleModal']/div[@role='document']//button[normalize-space(text())='Close']",
+    "contact_cross_btn_selector":"//div[@id='exampleModal']/div[@role='document']//span[normalize-space(text())='×']",
+
+
+    "about_us_selector":"//a[normalize-space(text())='About us']",
+    "aboutus_validator_selector":"#videoModalLabel",
+    "aboutus_close_selector":"//div[@id='videoModal']//button[normalize-space(text())='Close']",
+    "aboutus_cross_btn_selector":"//div[@id='videoModal']//span[.='×']",
+
+
+    "signup_tab_selector":"#signin2",
+    "signup_username_selector":"#sign-username",
+    "signup_password_selector":"#sign-password",
+    "signup_btn_selector":"//button[normalize-space(text())='Sign up']",
+    "signup_cancel_btn_selector":"//div[@id='signInModal']//button[normalize-space(text())='Close']",
+    "signup_cross_btn_selector":"//div[@id='signInModal']//span[normalize-space(text())='×']",
+
+    "categories_selector":"#cat",
+    "phone_tab_selector":"#itemc",
+    "device_list_selector":"#article",
+    "device_next_selector":"#next2",
+    "device_prev_selector":"#prev2",
+    "homepage_carousal_next_selector":".carousel-control-next-icon",
+    "homepage_carousal_previous_selector":".carousel-control-prev-icon",
+    "laptop_tab_selector":"[onclick=\"byCat('notebook')\"]",
+    "monitor_tab_selector":"[onclick=\"byCat('monitor')\"]",
+
+    "cart_tab_selector":"#cartur",
+    "add_to_cart_selector":".btn-success",
+    "added_cart_item_selector":".success >td",
+    "parent_row_item_selector":"tr",
+    "delete_btn_tag_selector":"a[href=\"#\"]",
+    "cart_page_selector":"#page-wrapper",
+
+
+    "place_order_selector":".btn.btn-success",
+    "buyer_name_selector":"#name",
+    "buyer_country_selector":"#country",
+    "buyer_city_selector":"#city",
+    "buyer_creditCard_selector":"#card",
+    "card_month_selector":"#month",
+    "card_year_selector":"#year",
+    "purchase_btn_selector":"//button[normalize-space(text())='Purchase']",
+    "buyer_info_selector":".stop-scrolling > .showSweetAlert.sweet-alert.visible",
+    "purchase_ok_btn_selector":"//button[normalize-space(text())='OK']",
+    "purchase_close_btn_selector":"//div[@id='orderModal']/div[@role='document']//button[normalize-space(text())='Close']",
+    "purchase_cross_btn_selector":"//div[@id='orderModal']/div[@role='document']//span[normalize-space(text())='×']",
+    "total_price_selector":"#totalp",
+  
+   
+    "header_id":"#nava",
+    "header_id_tab":"#navbarExample",
+    "footer_body_selector":"div#footc",
+    "footer_Aboutus_selector":"//div[@id='fotcont']//b[normalize-space(text())='About Us']",
+    "footer_tag_selector":"#fotcont",
+    "footer_getInTouch_selector":"//div[@id='fotcont']//b[normalize-space(text())='Get in Touch']",
+    "footer_store_selector":"//div[@id='fotcont']//h4[normalize-space(text())='PRODUCT STORE']",
+    "footer_copyright_selector":"//p[normalize-space(text())='Copyright © Product Store 2017']"
+
+    
+
+
+}
+
+

@@ -1,0 +1,18 @@
+class header_pom {
+  
+    header_data(header_body_s,header_data){
+        cy.get(header_body_s).should('include.text', header_data)
+       
+    }
+    header_userdata(header_body_s,username_){
+        cy.get(header_body_s).should('include.text', 'Welcome ' + username_)
+    }
+   
+  
+
+
+}export default header_pom;  
+
+
+
+

@@ -1,0 +1,74 @@
+{
+  "username": "Hello World",
+  "signupUsername":"",
+  
+  "password": "123",
+  "email":"hello@world.com",
+  "invalid_username": "hello@world.com1",
+  "invalid_password": "1234",
+  
+  "message":"The office was busy, with people typing away at their desks and phones ringing in the background.",
+
+
+  "invalid_username_alert": "User does not exist.",
+  "invalid_password_alert": "Wrong password.",
+  "no_information_alert":"Please fill out Username and Password.",
+  "contact_alert_txt":"Thanks for the message!!",
+
+  "signup_user_exist_alert":"This user already exist.",
+  "signup_created_alert":"Sign up successful.",
+  "signup_empty_form_alert":"Please fill out Username and Password.",
+
+  "missing_info_alert":"Please fill out Name and Creditcard.",
+
+  "categories_txt":"CATEGORIES",
+  "url_validator":"STORE",
+  "phone_txt":"Phones",
+  "phone_list_txt":"Samsung",
+  "laptop_txt":"Laptops",
+  "laptop_list_txt":"laptop",
+  "monitor_txt":"Monitors",
+  "monitor_list_txt":"LCD",
+
+  "device_next_txt":"Next",
+  "device_prev_txt":"Previous",
+
+  "buying_device":"Nokia lumia 1520",
+  "product_added":"Product added",
+  "buying_laptop":"MacBook air",
+  "buying_monitor":"Apple monitor 24",
+
+
+  "buyer_name":"Hello",
+  "buyer_country":"Canada",
+  "buyer_city":"Toronto",
+  "buyer_creditCard":"123456789",
+  "card_month":"03",
+  "card_year":"2024",
+  "buying_date":"19/2/2025",
+
+
+  "header_data1":"PRODUCT STORE",
+  "header_data2":"Home",
+  "header_data3":"Contact",
+  "header_data4":"About us",
+  "header_data5":"Cart",
+  "header_data6":"Log in",
+  "header_data7":"Sign up",
+  "header_data8":"Log out",
+  
+
+  "About_us_paragraph":"We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.",
+  "footer_address":"Address: 2390 El Camino Real",
+  "footer_Phone":"Phone: +440 123456",
+  "footer_email":"Email: demo@blazemeter.com"
+
+
+  
+
+
+}
+
+
+
+
